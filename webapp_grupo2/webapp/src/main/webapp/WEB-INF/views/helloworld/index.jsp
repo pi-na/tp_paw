@@ -1,7 +1,10 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <html>
+<head>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
 <body>
-<h1>Hello, <c:out value="${username}" escapeXml="True" />!</h1>
+<h2>Hello, <c:out value="${user.email}" escapeXml="True" />!</h2>
 </body>
 </html>
